@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peril GitHub</title>
+    <link rel="stylesheet" href="/styles/index.css"/>
+</head>
+<body>
+    <div class="container">
+        <article>
+            <img 
+            style="border: 3px solid <%= usuario.cor %>"
+            src="<%= usuario.avatar_url %>"
+            alt="" 
+            />
+            <h1><%= usuario.name %></h1>
+            <p><%= usuario.bio %></p>
+            <p><%= usuario.location %></p>
+        </article>
+
+    </div>
+</body>
+</html>
